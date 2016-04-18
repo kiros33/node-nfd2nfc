@@ -10,10 +10,22 @@ File rename for NFD Unicode characters to NFC
 mkdir "%USERPROFILE%\Downloads\node-nfd2nfc\test"
 echo "1" > "%USERPROFILE%\Downloads\node-nfd2nfc\test\ABC_경영_1.txt"
 echo "1" > "%USERPROFILE%\Downloads\node-nfd2nfc\test\ABC_경영_2.txt"
+mkdir "%USERPROFILE%\Downloads\node-nfd2nfc\test\NFC폴더"
+echo "1" > "%USERPROFILE%\Downloads\node-nfd2nfc\test\NFC폴더\ABC_경영_1.txt"
+echo "1" > "%USERPROFILE%\Downloads\node-nfd2nfc\test\NFC폴더\ABC_경영_2.txt"
+mkdir "%USERPROFILE%\Downloads\node-nfd2nfc\test\NFD폴더"
+echo "1" > "%USERPROFILE%\Downloads\node-nfd2nfc\test\NFD폴더\ABC_경영_1.txt"
+echo "1" > "%USERPROFILE%\Downloads\node-nfd2nfc\test\NFD폴더\ABC_경영_2.txt"
 ```
 
-## 실행
+## 폴더 변환 실행
 
 ```
-node "%USERPROFILE%\Downloads\node-nfd2nfc\nfd2nfc.js" "%USERPROFILE%\\Downloads\\node-nfd2nfc\\test\\"
+node "%USERPROFILE%\Downloads\node-nfd2nfc\nfd2nfc.js" -d "%USERPROFILE%\\Downloads\\node-nfd2nfc\\test\\"
+```
+
+## 폴더 변환 실행 (Recursive)
+
+```
+node "%USERPROFILE%\Downloads\node-nfd2nfc\nfd2nfc.js" -d "%USERPROFILE%\\Downloads\\node-nfd2nfc\\test\\" -r
 ```
