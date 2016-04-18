@@ -1,0 +1,29 @@
+{
+  "name": "node-nfd2nfc",
+  "version": "1.0.0",
+  "description": "File rename for NFD Unicode characters to NFC",
+  "main": "nfd2nfc.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "--recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiros33/node-nfd2nfc.git"
+  },
+  "keywords": [
+    "Unicode",
+    "NFD",
+    "NFC",
+    "File",
+    "Rename"
+  ],
+  "author": "kiros33",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiros33/node-nfd2nfc/issues"
+  },
+  "homepage": "https://github.com/kiros33/node-nfd2nfc#readme"
+}
