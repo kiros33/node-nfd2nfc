@@ -8,8 +8,8 @@ File rename for NFD Unicode characters to NFC
 
 ```
 mkdir "%USERPROFILE%\Downloads\node-nfd2nfc\test"
-echo "1" > "%USERPROFILE%\Downloads\nfd2nfc\test\ABC_경영_1.txt"
-echo "1" > "%USERPROFILE%\Downloads\nfd2nfc\test\ABC_경영_2.txt"
+echo "1" > "%USERPROFILE%\Downloads\node-nfd2nfc\test\ABC_경영_1.txt"
+echo "1" > "%USERPROFILE%\Downloads\node-nfd2nfc\test\ABC_경영_2.txt"
 ```
 
 ## 실행
