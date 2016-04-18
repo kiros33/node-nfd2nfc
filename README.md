@@ -5,11 +5,13 @@ File rename for NFD Unicode characters to NFC
 > 아래 명령어를 복사해서 파일을 생성하면 자모가 분리된 파일을 생성할 수 있습니다.
 
 ## 옵션처리 [optimist](https://github.com/substack/node-optimist)
-require('optimist')
 
-> Options:
->   -d, --directory  [required]  [default: "."]
->   -r, --recursive
+require('optimist')
+```
+Options:
+  -d, --directory  [required]  [default: "."]
+  -r, --recursive
+```
 
 ## 테스트용 폴더와 파일 생성
 
@@ -28,11 +30,11 @@ echo "1" > "%USERPROFILE%\Downloads\node-nfd2nfc\test\NFD폴더\ABC_ᄀ
 ## 폴더 변환 실행
 
 ```
-node "%USERPROFILE%\Downloads\node-nfd2nfc\nfd2nfc.js" -d "%USERPROFILE%\\Downloads\\node-nfd2nfc\\test\\"
+node nfd2nfc.js -d "%USERPROFILE%\\Downloads\\node-nfd2nfc\\test\\"
 ```
 
 ## 폴더 변환 실행 (Recursive)
 
 ```
-node "%USERPROFILE%\Downloads\node-nfd2nfc\nfd2nfc.js" -d "%USERPROFILE%\\Downloads\\node-nfd2nfc\\test\\" -r
+node nfd2nfc.js -d "%USERPROFILE%\\Downloads\\node-nfd2nfc\\test\\" -r
 ```
