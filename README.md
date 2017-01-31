@@ -17,6 +17,10 @@ File rename for NFD Unicode characters to NFC
 
 ## 옵션처리 [optimist](https://github.com/substack/node-optimist)
 
+```
+npm install optimist
+```
+
 require('optimist')
 ```
 Options:
